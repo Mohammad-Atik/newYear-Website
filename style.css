@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* header */
+.header {
+  background-image: url("/images/banner/banner3.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-bottom: 20%;
+}
+.header-elements {
+  margin-left: 55%;
+  padding-left: 80px;
+  padding-top: 90px;
+}
+
+.heading {
+  font-size: 50px;
+  width: 525px;
+  left: 845px;
+  top: 216px;
+  color: aliceblue;
+}
+.header-paragraph {
+  height: 78px;
+  width: 494px;
+  left: 876px;
+  top: 468px;
+  color: white;
+}
+.header-btn {
+  padding: 3% 5%;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bolder;
+  color: rgb(76, 76, 185);
+  background-color: aliceblue;
+}
+
+/* second-section */
+.second {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 10%;
+}
+.second-heading {
+  font-family: Work Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 47px;
+}
+.second-para {
+  width: 416px;
+  margin-top: 20px;
+}
+.second-list {
+  margin-top: 10px;
+  font-family: Work Sans;
+  font-size: 16px;
+  line-height: 26px;
+  margin-left: 15px;
+}
+
+/* Plan-Section */
+.plan-section {
+  margin-top: 10%;
+}
+.myPlan-heading {
+  text-align: center;
+  margin-bottom: 5%;
+}
+.plan-items {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* last-section */
+.last-section {
+  background-image: linear-gradient(to right, #005fac, #005fac00),
+    url(/images/watch.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 35px;
+  margin: 7% 18%;
+  border-radius: 20px;
+}
+.last-heading {
+  font-family: Work Sans;
+  font-size: 40px;
+  color: #f0f8ff;
+}
+.last-btn {
+  margin-top: 15px;
+  padding: 2% 4%;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bolder;
+  color: #005fac;
+  background-color: #f0f8ff;
+}
+
+/* footer */
+.footer {
+  height: 577px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.footer-items {
+  color: #f0f8ff;
+  width: 416px;
+}
+.footer-items2 {
+  color: #f0f8ff;
+}
+.sub-heading {
+  margin-left: 10px;
+}
+.text {
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.sub-btn {
+  background-color: blue;
+  color: #f0f8ff;
+  margin-top: 15px;
+  margin-left: 10px;
+  padding: 2% 4%;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.footer-icons {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
